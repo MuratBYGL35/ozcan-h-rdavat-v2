@@ -1,0 +1,212 @@
+.navbar {
+    background-color: #fb0000;
+}
+
+.navbar-brand {
+    width: 240px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: #fff;
+    font-weight: 500;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    flex-grow: 0;
+}
+
+.ozcan-slider {
+    background-image: url(../img/rulman-bck-1920x1080.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.ozcan-opacity {
+    position: absolute;
+    background-color: black;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+
+.ozcan-slider .container {
+    z-index: 2;
+}
+
+
+.ozcan-slider h1 {
+    color: #fff;
+    font-size: 48px;
+}
+
+.ozcan-tabs {
+    margin-top: 30px;
+}
+
+.nav-tabs {
+    border: 0;
+    margin-bottom: 30px;
+}
+
+.nav-tabs .nav-item {
+    margin-bottom: 15px;
+    margin: 0px 7px;
+}
+
+.nav-tabs .nav-item .nav-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.15);
+    background-color: #fff;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: 0;
+    width: 100%;
+}
+
+.nav-tabs .nav-item .nav-link.active {
+    background-color: #fb0000;
+    color: #fff;
+}
+
+.tab-content img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.slbArrow.next {
+    background-image: url(../img/dark-mode-right-icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #fb0000;
+    border: 0;
+    border-radius: 7px;
+}
+
+.slbArrow.prev {
+    background-image: url(../img/dark-mode-left-icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #fb0000;
+    border: 0;
+    border-radius: 7px;
+}
+
+.slbArrow.next:before {
+    content: none;
+}
+
+.slbArrow.prev:before {
+    content: none;
+}
+
+.slbCloseBtn {
+    background-image: url(../img/lightbox-close-icon.svg);
+    background-color: #fb0000;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 0;
+    border-radius: 7px;
+}
+
+.slbCloseBtn:before {
+    content: none;
+}
+
+.iletisim h1 {
+    color: #fb0000;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.iletisim p {
+    color: #000;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.iletisim p a {
+    color: #fb0000;
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.ozcan-footer {
+    background-color: #fb0000;
+    display: flex;
+    justify-content: center;
+    padding: 7px 0px;
+}
+
+.ozcan-footer img {
+    width: 240px;
+}
+
+@media (max-width: 1440px) {
+    .ozcan-slider h1 {
+        font-size: 38px;
+    }
+}
+
+@media (max-width: 992px) {
+    .ozcan-slider h1 {
+        font-size: 32px;
+    }
+
+    .ozcan-slider {
+        height: 50vh;
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar-brand {
+        width: 150px;
+    }
+
+    .ozcan-slider h1 {
+        font-size: 24px;
+    }
+
+    .ozcan-slider {
+        height: 30vh;
+    }
+}
+
+@media (max-width: 540px) {
+    .nav-tabs {
+        flex-direction: column;
+        margin-bottom: 15px;
+    }
+
+    .nav-tabs .nav-item .nav-link {
+        margin-bottom: 15px;
+    }
+
+    .nav-tabs .nav-item {
+        margin: 0;
+    }
+
+    .ozcan-tabs {
+        margin-top: 15px;
+    }
+
+    .ozcan-slider h1 {
+        font-size: 20px;
+    }
+}
